@@ -1,14 +1,13 @@
 include ../partials/head
 
 block vars
-  - var data = {}
+  - var head = {}
 
 doctype html
 html(lang="ja" prefix="og: http://ogp.me/ns#")
   head
-    mixin head(data)
+    +head(head)
   body
-
     include ../partials/header
     main.main
       block contents

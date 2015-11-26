@@ -1,0 +1,15 @@
+include ../partials/head
+
+block vars
+  - var data = {}
+
+doctype html
+html(lang="ja" prefix="og: http://ogp.me/ns#")
+  head
+    mixin head(data)
+  body
+
+    include ../partials/header
+    main.main
+      block contents
+    include ../partials/footer

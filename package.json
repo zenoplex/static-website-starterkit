@@ -15,9 +15,10 @@
     "webpack:build": "npm run webpack -- --config webpack.config.production.js",
     "webpack:watch": "npm run webpack -- --watch",
     "watch": "parallelshell 'npm run jade:watch' 'npm run sass:watch' 'npm run webpack:watch' 'npm run browsersync'",
-    "build": "parallelshell 'npm run jade' 'npm run sass:build'  'npm run webpack:build'"
+    "build": "parallelshell 'npm run jade' 'npm run sass:build' 'npm run webpack:build'"
   },
   "keywords": [
+    "babel",
     "jade",
     "sass",
     "webpack"

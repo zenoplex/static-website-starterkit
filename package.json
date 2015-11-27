@@ -7,7 +7,7 @@
   "scripts": {
     "browsersync": "browser-sync start --server dist --files 'dist/css/**/*.css, dist/**/*.html, dist/**/*.js'",
     "jade": "jade src/jade/pages --out dist -O \"`yaml2json src/data/site.yaml`\"",
-    "jade:watch": "npm run jade -- -w src/jade",
+    "jade:watch": "npm run jade -- -w",
     "sass": "node-sass src/sass/*.scss -o dist/css --include-path node_modules/sanitize.css --include-path node_modules/bourbon/app/assets/stylesheets",
     "sass:watch": "npm run sass -- -w",
     "sass:build": "npm run sass && postcss -u autoprefixer -u cssnano -d dist/css dist/css/*.css",

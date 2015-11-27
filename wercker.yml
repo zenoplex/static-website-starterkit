@@ -1,3 +1,4 @@
+box: node
 build:
   steps:
     - npm-install

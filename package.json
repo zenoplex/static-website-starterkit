@@ -5,6 +5,7 @@
   "author": "zenoplex",
   "main": "npm run watch",
   "scripts": {
+    "clean": "rm -rf dist",
     "browsersync": "browser-sync start --server dist --files 'dist/css/**/*.css, dist/**/*.html, dist/**/*.js'",
     "jade": "jade src/jade/pages --out dist -O \"`yaml2json src/data/site.yaml`\"",
     "jade:watch": "npm run jade -- -w",

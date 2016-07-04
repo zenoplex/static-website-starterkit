@@ -46,7 +46,7 @@
   },
   "dependencies": {
     "bourbon": "^4.2.6",
-    "sanitize.css": "^3.0.0"
+    "sanitize.css": "^4.1.0"
   },
   "engines": {
     "node": ">=4.2.0"
